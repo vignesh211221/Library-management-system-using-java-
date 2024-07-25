@@ -61,11 +61,10 @@ public class books {
 	public void searchBySno()
 	{
 
-		// Display message
-		System.out.println(
-			"\t\t\t\tSEARCH BY SERIAL NUMBER\n");
+		
+		System.out.println("\t\t\t\tSEARCH BY SERIAL NUMBER\n");
 
-		// Class data members
+		
 		int sNo;
 		System.out.println("Enter Serial No of Book:");
 		sNo = input.nextInt();
@@ -93,7 +92,7 @@ public class books {
 	public void searchByAuthorName()
 	{
 
-		// Display message
+		
 		System.out.println("\t\t\t\tSEARCH BY AUTHOR'S NAME");
 
 		input.nextLine();
@@ -133,8 +132,7 @@ public class books {
 	{
 
 		System.out.println("\t\t\t\tSHOWING ALL BOOKS\n");
-		System.out.println(
-			"S.No\t\tName\t\tAuthor\t\tAvailable Qty\t\tTotal Qty");
+		System.out.println("S.No\t\tName\t\tAuthor\t\tAvailable Qty\t\tTotal Qty");
 
 		for (int i = 0; i < count; i++) {
 
@@ -151,8 +149,7 @@ public class books {
 	public void upgradeBookQty()
 	{
 
-		System.out.println(
-			"\t\t\t\tUPGRADE QUANTITY OF A BOOK\n");
+		System.out.println("\t\t\t\tUPGRADE QUANTITY OF A BOOK\n");
 		System.out.println("Enter Serial No of Book");
 
 		int sNo = input.nextInt();
@@ -161,7 +158,7 @@ public class books {
 
 			if (sNo == theBooks[i].sNo) {
 
-				// Display message
+				
 				System.out.println("Enter No of Books to be Added:");
 
 				int addingQty = input.nextInt();
