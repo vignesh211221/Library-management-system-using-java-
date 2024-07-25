@@ -26,39 +26,39 @@ public class Library{
                 
                 switch (searchChoice) {
  
-                    // Case
+                    
                 case 1:
                     ob.searchBySno();
                     break;
  
-                    // Case
+                    
                 case 2:
                     ob.searchByAuthorName();
                 }
                 break;
  
-                // Case
+                
             case 4:
                 ob.showAllBooks();
                 break;
  
-                // Case
+                
             case 5:
                 student s = new student();
                 obStudent.addStudent(s);
                 break;
  
-                // Case
+                
             case 6:
                 obStudent.showAllStudents();
                 break;
  
-                // Case
+                
             case 7:
                 obStudent.checkOutBook(ob);
                 break;
  
-                // Case
+                
             case 8:
                 obStudent.checkInBook(ob);
                 break;
